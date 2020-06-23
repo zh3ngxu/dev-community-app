@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://zheng:devcommunity@dev-community-izxfk.mongodb.net/<dbname>?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://zheng:devcommunity@dev-community-izxfk.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
