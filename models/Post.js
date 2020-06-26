@@ -26,13 +26,16 @@ const PostSchema = new Schema({
   ],
   comments: [
     {
-      users: {
+      user: {
         type: Schema.Types.ObjectId,
         ref: 'users',
       },
       text: {
         type: String,
         requried: true,
+      },
+      name: {
+        type: String,
       },
       avatar: {
         type: String,
